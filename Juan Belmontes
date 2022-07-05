@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Consulta de Estudiantes </title>
+        <link href="icono1.png" rel="icon"/>
+        <link href="Estilo.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Formulario de estudiantes</h1>
+        </header>
+        <section>
+            <table>
+                <tr><td>Matricula</td>
+                    <td><form>
+                        <input  name="matricula" id="matricula" type="text" placeholder="Ingresa t matricula:"/>
+                    </form></td>
+                </tr>
+                <tr><td>Nombre</td>
+                    <td><form>
+                        <input  name="nombre" id="nombre" type="text" placeholder="Ingresa tu nombre:"/>
+                    </form></td>
+                </tr>
+                <tr><td>Apellido Paterno</td>
+                    <td><form>
+                        <input  name="Ap" id="Ap" type="text" placeholder="Ingresa tu Apellido Paterno:"/>
+                    </form></td>
+                </tr>
+                <tr><td>Apellido Materno</td>
+                    <td><form>
+                        <input  name="Am" id="Am" type="text" placeholder="Ingresa tu Apellido Materno:"/>
+                    </form></td>
+                </tr>
+                <tr><td>Edad</td>
+                    <td><form>
+                        <input  name="age" id="age" type="number" placeholder="Ingresa tu Edad:"/>
+                    </form></td>
+                </tr>
+            </table>          
+        </section>
+        <section>
+            <h1>Materias a cursar</h1>
+            <label for="materia" >Elige una Materia:</label>
+            <select name="materia" id="materia">
+                <option value="Espa">Español</option>
+                <option value="Matematicas">Matematicas</option>
+                <option value="Historia">Historia</option>
+                <option value="Biologia">Biologia</option>
+            </select>
+        </section>
+        <footer>
+        </footer>
+    </body>
+</html>
